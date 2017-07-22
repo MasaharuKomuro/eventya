@@ -2,15 +2,20 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // Layouts
-import { FullLayoutComponent } from './layouts/full-layout.component';
+import { FullLayoutComponent }   from './layouts/full-layout.component';
 import { SimpleLayoutComponent } from './layouts/simple-layout.component';
+import { RouletteComponent }     from './roulette/roulette.component';
 
 export const routes: Routes = [
   {
     // pathの指定がなかったら、ログインページにリダイレクト
     path: '',
-    redirectTo: './roulette/main/main.ts',
+    redirectTo: 'roulette',
     pathMatch: 'full',
+  },
+  {
+    path: 'roulette',
+    component: RouletteComponent,
   },
   {
     // テンプレートをよみこんでから、子コンポーネントを読み込む
@@ -20,10 +25,6 @@ export const routes: Routes = [
       title: 'Home'
     },
     children: [
-      {
-        path: 'organizer',
-        loadChildren: './organizer/organizer.module#OrganizerModule'
-      },
       {
         path: 'dashboard',
         loadChildren: './dashboard/dashboard.module#DashboardModule'

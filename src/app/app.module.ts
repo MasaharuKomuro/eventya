@@ -14,13 +14,14 @@ import { AsideToggleDirective } from './shared/aside.directive';
 import { BreadcrumbsComponent } from './shared/breadcrumb.component';
 
 // Routing Module
-import { AppRoutingModule } from './app.routing';
+import { AppRoutingModule }      from './app.routing';
+import { RouletteModule }        from './roulette/roulette.module';
 
 // Layouts
-import { FullLayoutComponent } from './layouts/full-layout.component';
+import { FullLayoutComponent }   from './layouts/full-layout.component';
 import { SimpleLayoutComponent } from './layouts/simple-layout.component';
-import {FormsModule} from '@angular/forms';
-import { MainComponent } from './roulette/main/main.component';
+import { FormsModule }           from '@angular/forms';
+import { RouletteComponent}      from './roulette/roulette.component';
 
 @NgModule({
   imports: [
@@ -30,9 +31,9 @@ import { MainComponent } from './roulette/main/main.component';
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
     ChartsModule,
-    BrowserModule,
     FormsModule,
-    CommonModule
+    CommonModule,
+    RouletteModule
   ],
   declarations: [
     AppComponent,
@@ -41,8 +42,7 @@ import { MainComponent } from './roulette/main/main.component';
     NAV_DROPDOWN_DIRECTIVES,
     BreadcrumbsComponent,
     SIDEBAR_TOGGLE_DIRECTIVES,
-    AsideToggleDirective,
-    MainComponent
+    AsideToggleDirective
   ],
   providers: [
     {
