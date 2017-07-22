@@ -1,0 +1,21 @@
+.card.card-outline-primary {
+	
+}
+
+.card-block {
+	background-color: rgba(255, 255, 255, 0.85) !important;
+	padding: 15px 5px;
+	text-align: center;	
+}
+
+.card-block:hover {
+	background-color: rgba(190, 190, 190, 0.5) !important;
+}
+
+.modal-content {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-header {
+	background-color: rgba(103, 194, 239, 0.7);
+}

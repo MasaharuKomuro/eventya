@@ -1,0 +1,17 @@
+.dnd-drag-start{
+  border: dashed 2px black !important;
+}
+
+.thumbnail img{
+  width: 100%;
+}
+
+td{
+  line-height: 15px;
+  padding:0 5px;
+  vertical-align: middle;
+}
+
+.center{
+  text-align: center;
+}

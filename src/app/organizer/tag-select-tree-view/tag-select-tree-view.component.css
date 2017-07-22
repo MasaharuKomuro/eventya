@@ -1,0 +1,16 @@
+leo-dropdown-treeview{
+  border:transparent;
+  padding: 0;
+}
+
+label{
+  line-height:25px;
+  font-size: 12px;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+div.form-group.row.col-12{
+  margin-bottom: 5px;
+}

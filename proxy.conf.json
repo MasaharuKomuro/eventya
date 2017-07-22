@@ -1,0 +1,10 @@
+{
+  "/cms": {
+    "target": "http://potaufeu-l.asahi.com:8080",
+    "secure": false
+  },
+  "/assets": {
+    "target": "http://potaufeu-l.asahi.com:8080",
+    "secure": false
+  }
+}

@@ -1,0 +1,12 @@
+<div class="row">
+  <label for="input-{{label.name}}" class="col-4 form-control-label">{{label.label}}</label>
+  <div class="col-8">
+  <input ng2-datetime-picker
+         [(ngModel)]="input[label.name]"
+         id="input-{{label.name}}"
+         date-format="YYYY年MM月DD日 HH時mm分ss秒"
+         minute-step="1"
+         hour="23"
+         [close-on-select]="false" />
+  </div>
+</div>

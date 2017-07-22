@@ -1,0 +1,25 @@
+span{
+  height: 22px;
+  font-size: 14px;
+  margin: 0 5px 0 0 !important;
+}
+
+li{
+  margin: 6px 0 0 0 !important;
+}
+
+.badge-default{
+  background-color: #949db0 !important;
+}
+
+.badge.badge-default.tag,
+.badge.badge-default.tag a,
+.badge.badge-default.channel,
+.badge.badge-default.channel a {
+  white-space: normal;
+  word-break: keep-all;
+  word-wrap: break-word;
+  text-align: left;
+  font-size: 14px;
+  margin: 0 5px 0 0 !important;
+}

@@ -1,0 +1,73 @@
+<!--更新ボタンアイコン-->
+<i id="reload_storylist" class="fa fa-refresh fa-2x" aria-hidden="true" (click)="onClickRefresh()"> </i>
+
+<div id="search-modal-container" class="col-12 row">
+  <div class="col-1" style="padding: 0;">
+    <app-search-modal (clickSearchButton)="runSearch()"></app-search-modal>
+  </div>
+  <div class="col-11">
+    <app-search-conditions></app-search-conditions>
+  </div>
+</div>
+
+<div id="table-elem-container" class="container">
+  <div class="row storylist">
+    <div class="col-12">
+      <table class="table table-sm table-bordered thead-inverse">
+        <thead class="thead-inverse">
+        <tr class="center">
+          <th class="flag"></th> <!-- 空のカラム -->
+          <th class="channel">ジャンル</th>
+          <th class="thumbnail">画像</th>
+          <th class="title">タイトル</th>
+          <th class="edit_title">編集見出し</th>
+          <th class="credit">CP</th>
+          <th class="dates">入稿<br>公開<br>更新</th>
+          <th class="published">トピ<br>殿堂<br>タブ</th>
+          <th class="status">状態</th>
+          <th class="grabbable center"></th> <!-- 空のカラム -->
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let story of visible_zone; let i = index"
+            id="story-{{story.id}}"
+            app-storylist-record
+            [sh-context]="items" [sh-data-context]="story"
+            [story]="story" [index]="i"
+            [ngClass]="{'is_dead': story?.status == registryService.status.DELETED}"
+        >
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 更新中表示 -->
+  <div class="loading active" *ngIf="(is_searching || editting_is_repair) && !isEnd">
+    <div class="loading_animation">
+      <div id="card_block">
+        <div class="sk-fading-circle">
+          <div class="sk-circle1 sk-circle"></div>
+          <div class="sk-circle2 sk-circle"></div>
+          <div class="sk-circle3 sk-circle"></div>
+          <div class="sk-circle4 sk-circle"></div>
+          <div class="sk-circle5 sk-circle"></div>
+          <div class="sk-circle6 sk-circle"></div>
+          <div class="sk-circle7 sk-circle"></div>
+          <div class="sk-circle8 sk-circle"></div>
+          <div class="sk-circle9 sk-circle"></div>
+          <div class="sk-circle10 sk-circle"></div>
+          <div class="sk-circle11 sk-circle"></div>
+          <div class="sk-circle12 sk-circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<app-toaster></app-toaster>
+
+
+

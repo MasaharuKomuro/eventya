@@ -1,0 +1,22 @@
+.wide-pill {
+	width  : auto    !important;
+	padding: 0 8px   !important;
+	margin : 0 5px   !important;
+	color  : #c0cadd !important;
+}
+
+.dropdown-item:hover{
+	background: #dddddd;
+}
+
+.sk-double-bounce{
+	margin: 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+}
+
+.loading{
+	position: relative;
+}

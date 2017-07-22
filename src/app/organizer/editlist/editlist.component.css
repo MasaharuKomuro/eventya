@@ -1,0 +1,76 @@
+#editlist_container{
+  margin-top: 10px;
+  position: relative;
+}
+
+.fa-refresh{
+  position: absolute;
+  top: 5px;
+  right: 50px;
+}
+
+.fa-trash-o{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.loading{
+  display: none;
+}
+
+.loading.active {
+  display:    block;
+  height:     100%;
+  width:      100%;
+  background: rgba(0, 0, 0, 0.3);
+  position:   absolute;
+  top:        0;
+}
+
+.loading_animation {
+  width:    50%;
+  position: absolute;
+  left:     25%;
+  top:      200px;
+  height:   100%;
+}
+
+.card-block {
+  padding: 0;
+}
+
+.card-header {
+  text-align:    center;
+  background:    transparent;
+  border:        transparent;
+  color:         white;
+  font-size:     40px;
+  padding:       0;
+  position:      absolute;
+  left:          25%;
+  margin-top:    -130px;
+  margin-bottom: 0;
+  width:         50%;
+}
+
+.sk-cube-grid {
+  background:    rgba(54, 208, 162, 0.8);
+  margin-bottom: 0;
+  margin-top:    0;
+  height:        150px;
+  width:         150px;
+}
+
+.sk-cube {
+  background: #20a8d8;
+  opacity:    0.8;
+}
+
+.card-header a {
+  font-size: 24px;
+}
+
+.none {
+  display: none !important;
+}
