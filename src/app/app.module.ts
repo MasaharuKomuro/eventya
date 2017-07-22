@@ -20,10 +20,7 @@ import { AppRoutingModule } from './app.routing';
 import { FullLayoutComponent } from './layouts/full-layout.component';
 import { SimpleLayoutComponent } from './layouts/simple-layout.component';
 import {FormsModule} from '@angular/forms';
-import {OrganizerModule} from './organizer/organizer.module';
-import {LoginModule} from './login/login.module';
-import {LoginService} from './common/service/login.service';
-import {SiteService} from './common/service/site.service';
+import { MainComponent } from './roulette/main/main.component';
 
 @NgModule({
   imports: [
@@ -44,10 +41,10 @@ import {SiteService} from './common/service/site.service';
     NAV_DROPDOWN_DIRECTIVES,
     BreadcrumbsComponent,
     SIDEBAR_TOGGLE_DIRECTIVES,
-    AsideToggleDirective
+    AsideToggleDirective,
+    MainComponent
   ],
   providers: [
-    LoginService,
     {
       provide: LocationStrategy,
       useClass: HashLocationStrategy

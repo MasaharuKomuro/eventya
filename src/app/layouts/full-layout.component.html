@@ -213,42 +213,6 @@
         <a class="dropdown-item" ><i class="fa fa-lock"></i> Logout</a>
       </div>
     </li>
-    <!-- ユーザー情報 -->
-    <li class="nav-item hidden-md-down">
-      <a class="nav-link nav-pill wide-pill">
-        <i class="icon-user"></i>
-        <a>{{user_name}}</a>
-      </a>
-    </li>
-    <!--　サイト選択 -->
-    <li class="nav-item dropdown hidden-md-down" dropdown (onToggle)="toggled($event)">
-      <a class="nav-link nav-pill wide-pill" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false" dropdownToggle >
-        <i class="icon-layers"></i>
-        <a>{{siteService.getActiveSite()?.name}}</a>
-      </a>
-      <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg" *dropdownMenu aria-labelledby="simple-dropdown">
-        <a *ngFor="let site of sites" class="dropdown-item" (click)="changeSite(site)">
-          <div class="message">
-            <div class="text-truncate font-weight-bold">
-              <span>{{site.name}}</span>
-            </div>
-          </div>
-        </a>
-      </div>
-    </li>
-    <!-- ログアウトボタン -->
-    <li class="nav-item hidden-md-down" (click)="logout()">
-      <a class="nav-link nav-pill wide-pill loading">
-        <i class="icon-logout"></i>
-        <div class="sk-double-bounce" *ngIf="loading">
-          <div class="sk-child sk-double-bounce1"></div>
-          <div class="sk-child sk-double-bounce2"></div>
-        </div>
-      </a>
-    </li>
-    <li class="nav-item hidden-md-down">
-      <a class="nav-link navbar-toggler aside-menu-toggler" >&#9776;</a>
-    </li>
   </ul>
 </header>
 

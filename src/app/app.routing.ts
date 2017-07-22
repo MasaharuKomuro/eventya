@@ -4,18 +4,13 @@ import { Routes, RouterModule } from '@angular/router';
 // Layouts
 import { FullLayoutComponent } from './layouts/full-layout.component';
 import { SimpleLayoutComponent } from './layouts/simple-layout.component';
-import { LoginComponent } from './login/login.component';
 
 export const routes: Routes = [
   {
     // pathの指定がなかったら、ログインページにリダイレクト
     path: '',
-    redirectTo: 'login',
+    redirectTo: './roulette/main/main.ts',
     pathMatch: 'full',
-  },
-  {
-    path: 'login',
-    component: LoginComponent,
   },
   {
     // テンプレートをよみこんでから、子コンポーネントを読み込む
