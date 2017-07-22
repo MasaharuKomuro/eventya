@@ -35,8 +35,6 @@ import {SiteService} from './common/service/site.service';
     ChartsModule,
     BrowserModule,
     FormsModule,
-    OrganizerModule,
-    LoginModule,
     CommonModule
   ],
   declarations: [
@@ -51,10 +49,9 @@ import {SiteService} from './common/service/site.service';
   providers: [
     LoginService,
     {
-    provide: LocationStrategy,
-    useClass: HashLocationStrategy
-  },
-    SiteService
+      provide: LocationStrategy,
+      useClass: HashLocationStrategy
+    }
   ],
   bootstrap: [ AppComponent ]
 })

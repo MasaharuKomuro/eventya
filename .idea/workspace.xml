@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="913f476c-1be2-4bde-9688-5ca840997e30" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/indigo-pink.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/purple-green.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/coercion/boolean-property.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/coercion/number-property.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/observe-content/observe-content.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/portal/portal-errors.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/rtl/dir.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy.conf.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test.ts" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/@angular/material.es5.js" afterPath="$PROJECT_DIR$/node_modules/@angular/material/@angular/material.es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/@angular/material.es5.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/material/@angular/material.es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/@angular/material.js" afterPath="$PROJECT_DIR$/node_modules/@angular/material/@angular/material.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/@angular/material.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/material/@angular/material.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/_theming.scss" afterPath="$PROJECT_DIR$/node_modules/@angular/material/_theming.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/bundles/material.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/material/bundles/material.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/bundles/material.umd.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/material/bundles/material.umd.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/bundles/material.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/material/bundles/material.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/bundles/material.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/material/bundles/material.umd.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/material.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/material.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/material.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/material/material.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/material/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css" afterPath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/indigo-pink.css" afterPath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/indigo-pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css" afterPath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/purple-green.css" afterPath="$PROJECT_DIR$/node_modules/@angular/material/prebuilt-themes/purple-green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/autocomplete/autocomplete-trigger.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/autocomplete/autocomplete-trigger.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/autocomplete/autocomplete.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/autocomplete/autocomplete.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/button-toggle/button-toggle.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/button-toggle/button-toggle.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/button/button.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/button/button.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/card/card.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/card/card.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/checkbox/checkbox.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/checkbox/checkbox.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/chips/chip-list.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/chips/chip-list.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/chips/chip.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/chips/chip.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/fake-mousedown.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/fake-mousedown.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/focus-key-manager.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/focus-key-manager.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/focus-trap.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/focus-trap.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/interactivity-checker.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/interactivity-checker.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/list-key-manager.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/list-key-manager.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/live-announcer.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/a11y/live-announcer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/animation/animation.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/animation/animation.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/common-behaviors/common-module.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/common-behaviors/common-module.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/common-behaviors/disabled.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/common-behaviors/disabled.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/compatibility/compatibility.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/compatibility/compatibility.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/coordination/unique-selection-dispatcher.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/coordination/unique-selection-dispatcher.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/core.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/core.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/datetime/date-adapter.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/datetime/date-adapter.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/datetime/date-formats.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/datetime/date-formats.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/datetime/native-date-adapter.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/datetime/native-date-adapter.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/datetime/native-date-formats.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/datetime/native-date-formats.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/gestures/gesture-annotations.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/gestures/gesture-annotations.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/keyboard/keycodes.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/keyboard/keycodes.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/line/line.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/line/line.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/option/option.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/option/option.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/generic-component-type.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/generic-component-type.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/overlay-container.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/overlay-container.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/overlay-directives.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/overlay-directives.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/overlay-ref.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/overlay-ref.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/overlay-state.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/overlay-state.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/overlay.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/overlay.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/position/connected-position-strategy.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/position/connected-position-strategy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/position/global-position-strategy.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/position/global-position-strategy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/position/overlay-position-builder.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/position/overlay-position-builder.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/position/position-strategy.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/position/position-strategy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/position/viewport-ruler.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/position/viewport-ruler.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/block-scroll-strategy.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/block-scroll-strategy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/close-scroll-strategy.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/close-scroll-strategy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/noop-scroll-strategy.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/noop-scroll-strategy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/reposition-scroll-strategy.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/reposition-scroll-strategy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/scroll-dispatcher.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/scroll-dispatcher.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/scroll-strategy.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/scroll-strategy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/scrollable.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/overlay/scroll/scrollable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/platform/features.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/platform/features.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/platform/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/platform/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/platform/platform.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/platform/platform.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/portal/dom-portal-host.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/portal/dom-portal-host.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/portal/portal-directives.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/portal/portal-directives.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/portal/portal.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/portal/portal.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/ripple/ripple-ref.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/ripple/ripple-ref.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/ripple/ripple-renderer.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/ripple/ripple-renderer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/ripple/ripple.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/ripple/ripple.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/selection/pseudo-checkbox/pseudo-checkbox.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/selection/pseudo-checkbox/pseudo-checkbox.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/selection/selection.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/selection/selection.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/style/apply-transform.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/style/apply-transform.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/style/focus-origin-monitor.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/style/focus-origin-monitor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/util/object-extend.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/core/util/object-extend.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/calendar-body.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/calendar-body.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/calendar.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/calendar.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/datepicker-errors.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/datepicker-errors.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/datepicker-input.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/datepicker-input.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/datepicker-toggle.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/datepicker-toggle.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/datepicker.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/datepicker.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/month-view.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/month-view.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/year-view.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/datepicker/year-view.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog-config.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog-config.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog-container.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog-container.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog-content-directives.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog-content-directives.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog-injector.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog-injector.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog-ref.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog-ref.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/dialog.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/dialog/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/grid-list/grid-list-measure.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/grid-list/grid-list-measure.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/grid-list/grid-list.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/grid-list/grid-list.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/grid-list/grid-tile.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/grid-list/grid-tile.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/grid-list/tile-coordinator.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/grid-list/tile-coordinator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/grid-list/tile-styler.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/grid-list/tile-styler.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/icon/icon-registry.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/icon/icon-registry.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/icon/icon.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/icon/icon.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/index.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/index.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/input/autosize.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/input/autosize.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/input/input-container-errors.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/input/input-container-errors.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/input/input-container.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/input/input-container.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/list/list.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/list/list.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-animations.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-animations.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-directive.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-directive.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-errors.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-errors.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-item.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-item.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-panel.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-panel.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-positions.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-positions.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-trigger.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu-trigger.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/menu/menu.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/progress-bar/progress-bar.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/progress-bar/progress-bar.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/progress-spinner/progress-spinner.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/progress-spinner/progress-spinner.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/public_api.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/public_api.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/radio/radio.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/radio/radio.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/select/select-animations.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/select/select-animations.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/select/select-errors.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/select/select-errors.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/select/select.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/select/select.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/sidenav/sidenav.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/sidenav/sidenav.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/slide-toggle/slide-toggle.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/slide-toggle/slide-toggle.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/slider/slider.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/slider/slider.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/snack-bar/snack-bar-config.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/snack-bar/snack-bar-config.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/snack-bar/snack-bar-container.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/snack-bar/snack-bar-container.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/snack-bar/snack-bar-ref.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/snack-bar/snack-bar-ref.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/snack-bar/snack-bar.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/snack-bar/snack-bar.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/ink-bar.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/ink-bar.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-body.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-body.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-group.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-group.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-header.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-header.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-label-wrapper.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-label-wrapper.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-label.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-label.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-nav-bar/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-nav-bar/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-nav-bar/tab-nav-bar.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab-nav-bar/tab-nav-bar.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tabs/tab.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/toolbar/toolbar.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/toolbar/toolbar.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/material/typings/tooltip/tooltip.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/material/typings/tooltip/tooltip.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/angular2-fontawesome/README.md" afterPath="$PROJECT_DIR$/node_modules/angular2-fontawesome/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/angular2-fontawesome/package.json" afterPath="$PROJECT_DIR$/node_modules/angular2-fontawesome/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/angular2-fontawesome/src/index.js" afterPath="$PROJECT_DIR$/node_modules/angular2-fontawesome/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style.css" afterPath="$PROJECT_DIR$/src/style.css" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/favicon.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/app.routing.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-58">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-cli.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-cli.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9988">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/karma.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/style.css" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/angular-cli.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roulette" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roulette" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="913f476c-1be2-4bde-9688-5ca840997e30" name="Default" comment="" />
+      <created>1500726531490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500726531490</updated>
+      <workItem from="1500726532801" duration="1291000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1291000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.96182084" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9988">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
