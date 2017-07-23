@@ -12,10 +12,9 @@
 
 .bingo-card-img {
     width: 100vh;
-    margin-left: 100vw;
-    /*right: -75vw;*/
     left: 150%;
     margin-left: -416px;
+    z-index: 10;
 }
 
 .bingo-card-img img {
@@ -116,4 +115,16 @@ button.start, button.confirm {
 
 .buttons {
     position: relative;
+}
+
+.bingo-frame-wrapper {
+    width: 100vh;
+    top: -20%;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.bingo-frame-wrapper img {
+    width: 100vw;
 }
