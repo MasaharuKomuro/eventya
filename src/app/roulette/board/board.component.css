@@ -128,3 +128,30 @@ button.start, button.confirm {
 .bingo-frame-wrapper img {
     width: 100vw;
 }
+
+@keyframes animation-showing-result-number {
+    0% {
+        transform: translate(0vw, 0) rotate(0deg) scale(1);
+    }
+    15% {
+        transform: translate(0vw, 0) rotate(0deg) scale(1);
+    }
+    85% {
+        transform: translate(22vw, 30vh) rotate(360deg) scale(2);
+    }
+    100% {
+        transform: translate(22vw, 30vh) rotate(360deg) scale(2);
+    }
+}
+
+.showing-result-number > div {
+    animation-name: animation-showing-result-number;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    transform: translate3d(0,0,0);
+}

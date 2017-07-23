@@ -16,7 +16,8 @@
                [ngClass]="{'target-image': items.length === (i + 1)}"
           >
             <img class="bingo-{{item}}" src="../../../assets/img/bingo_material/{{item}}.jpg">
-            <div class="no">{{item}}</div>
+            <div class="no" [ngStyle]="{'background': number_colors[i]['body'], 'border': 'solid 2px ' + number_colors[i]['border']}">
+              {{item}}</div>
           </div>
           <div class="bingo-frame-wrapper">
             <img src="../../../assets/img/bingo_frame.png">
