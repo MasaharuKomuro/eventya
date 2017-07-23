@@ -1,0 +1,20 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <div class="card">
+        <div class="card-header">
+          BINGO!!!
+        </div>
+        <div class="card-block main-card">
+          <div class="bingo_card_img bingo_{{item}}" [ngStyle]="{'animation-delay': i + 's'}" *ngFor="let item of items;let i = index">
+            <img class="bingo_{{item}}" src="../../../assets/img/bingo_material/{{item}}.jpg">
+            <div class="no">{{item}}</div>
+          </div>
+        </div>
+      </div>
+    </div><!--/.col-->
+  </div>
+</div>
+<button class="btn btn-danger" (click)="clickStart()">
+  スタート！
+</button>

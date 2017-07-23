@@ -5,6 +5,7 @@ import { HttpModule }         from '@angular/http';
 import { FormsModule }        from '@angular/forms';
 import { LaddaModule }        from 'angular2-ladda';
 import { RouletteComponent }  from './roulette.component';
+import { BoardComponent } from './board/board.component';
 
 @NgModule({
     imports: [
@@ -17,7 +18,8 @@ import { RouletteComponent }  from './roulette.component';
         RouterModule
     ],
     declarations: [
-        RouletteComponent
+        RouletteComponent,
+        BoardComponent
     ],
     providers: [
     ]
