@@ -4,43 +4,65 @@
     position: relative;
 }
 
-.bingo_card_img, .bingo_card_img img {
+.bingo-card-img, .bingo-card-img img {
     height: 80vh;
     position: absolute;
     top: 0;
 }
 
-.bingo_card_img {
+.bingo-card-img {
     width: 100vh;
     margin-left: 100vw;
+    right: -150%;
+    margin-right: 62.5%;
 }
 
-.bingo_card_img img {
+.bingo-card-img img {
     max-width: 100%;
 }
 
-.bingo_card_img {
-    animation-name: animation-bingo_card_img;
-    animation-duration: 2s;
+.bingo-card-img-start {
+    animation-name: animation-start;
+    animation-duration: 2s/*4s*/;
     animation-timing-function: cubic-bezier(0.46, 0.05, 0.56, 0.9);
     animation-delay: 0s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
     animation-play-state: running
 }
 
-@keyframes animation-bingo_card_img {
-    from{
+@keyframes animation-start {
+    0% {
         transform:translate(0vw,0);
     }
-    to{
+    100% {
         transform:translate(-200vw, 0);
     }
 }
 
-/*.bingo_card_img {*/
-    /*animation-name: animation-bingo_card_img_start2;*/
+.target-image-start {
+    animation-name: animation-target-image-start;
+    animation-duration: 2s/*4s*/;
+    animation-timing-function: cubic-bezier(0.46, 0.05, 0.56, 0.9);
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running
+}
+
+@keyframes animation-target-image-start {
+    0% {
+        transform:translate(0vw,0);
+    }
+    100% {
+        transform:translate(-100vw, 0);
+    }
+}
+
+/*.bingo-card-img {*/
+    /*animation-name: animation-bingo-card-img-start2;*/
     /*animation-duration: 2s;*/
     /*animation-timing-function: cubic-bezier(0.46, 0.05, 0.56, 0.9);*/
     /*animation-delay: 2s;*/
@@ -50,7 +72,7 @@
     /*animation-play-state: running*/
 /*}*/
 
-/*@keyframes animation-bingo_card_img_start2 {*/
+/*@keyframes animation-bingo-card-img-start2 {*/
     /*from{*/
         /*transform:translate(100vw,0);*/
     /*}*/

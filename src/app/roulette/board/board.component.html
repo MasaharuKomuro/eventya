@@ -6,8 +6,13 @@
           BINGO!!!
         </div>
         <div class="card-block main-card">
-          <div class="bingo_card_img bingo_{{item}}" [ngStyle]="{'animation-delay': i + 's'}" *ngFor="let item of items;let i = index">
-            <img class="bingo_{{item}}" src="../../../assets/img/bingo_material/{{item}}.jpg">
+          <div class="bingo-card-img bingo-{{item}}"
+               [ngStyle]="{'animation-delay': i * 500 + 'ms'}"
+               *ngFor="let item of items;let i = index"
+               (animationend)="animationEnd($event)"
+               [ngClass]="{'target-image': items.length === (i + 1)}"
+          >
+            <img class="bingo-{{item}}" src="../../../assets/img/bingo_material/{{item}}.jpg">
             <div class="no">{{item}}</div>
           </div>
         </div>
@@ -15,6 +20,10 @@
     </div><!--/.col-->
   </div>
 </div>
-<button class="btn btn-danger" (click)="clickStart()">
+<button class="btn btn-danger btn-ladda" [ngStyle]="{'display': is_animation_end ? 'none' : 'block'}"
+        [ladda]="in_transaction" (click)="clickStart()">
   スタート！
+</button>
+<button class="btn btn-success confirm" [ngStyle]="{'display': is_animation_end ? 'block' : 'none'}" (click)="clickConfirm()">
+  次いこう！
 </button>
