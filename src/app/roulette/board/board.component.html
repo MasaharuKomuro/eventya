@@ -1,11 +1,13 @@
+<div class="row">
+  <div class="col-sm-12 col-md-12 header">
+    <a class="main-title">BINGO!!!</a>
+    <app-result-modal class="extracted-numbers-button" [alreadies]="alreadies"></app-result-modal>
+  </div>
+</div>
 <div class="animated fadeIn">
   <div class="row">
     <div class="col-sm-12 col-md-12">
       <div class="card">
-        <div class="card-header">
-          BINGO!!!
-          <app-result-modal [alreadies]="alreadies"></app-result-modal>
-        </div>
         <div class="card-block main-card">
           <div class="bingo-card-img bingo-{{item}}"
                [ngStyle]="{'animation-delay': i * 500 + 'ms'}"
@@ -21,10 +23,16 @@
     </div><!--/.col-->
   </div>
 </div>
-<button class="btn btn-danger btn-ladda" [ngStyle]="{'display': is_animation_end ? 'none' : 'block'}"
-        [ladda]="in_transaction" (click)="clickStart()">
-  S T A R T ！
-</button>
-<button class="btn btn-success confirm" [ngStyle]="{'display': is_animation_end ? 'block' : 'none'}" (click)="clickConfirm()">
-  N E X T ! !
-</button>
+<div class="buttons">
+  <button class="btn btn-danger btn-ladda start" [ngStyle]="{'display': is_animation_end ? 'none' : 'block'}"
+          [ladda]="in_transaction" (click)="clickStart()">
+    S T A R T ！
+  </button>
+  <button class="btn btn-success confirm" [ngStyle]="{'display': is_animation_end ? 'block' : 'none'}" (click)="clickConfirm()">
+    N E X T ! !
+  </button>
+
+  <button class="btn btn-warning beginning-button" (click)="clickBeginning()">
+    Beginning！
+  </button>
+</div>

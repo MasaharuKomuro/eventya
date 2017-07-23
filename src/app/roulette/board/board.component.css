@@ -1,11 +1,11 @@
 .main-card {
-    height: 80vh;
+    height: 78vh;
     overflow: hidden;
     position: relative;
 }
 
 .bingo-card-img, .bingo-card-img img {
-    height: 80vh;
+    height: 78vh;
     position: absolute;
     top: 0;
 }
@@ -13,8 +13,7 @@
 .bingo-card-img {
     width: 100vh;
     margin-left: 100vw;
-    right: -150%;
-    margin-right: 62.5%;
+    right: -75vw;
 }
 
 .bingo-card-img img {
@@ -23,7 +22,7 @@
 
 .bingo-card-img-start {
     animation-name: animation-start;
-    animation-duration: 2s/*4s*/;
+    animation-duration: 4s/*4s*/;
     animation-timing-function: cubic-bezier(0.46, 0.05, 0.56, 0.9);
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -61,27 +60,7 @@
     }
 }
 
-/*.bingo-card-img {*/
-    /*animation-name: animation-bingo-card-img-start2;*/
-    /*animation-duration: 2s;*/
-    /*animation-timing-function: cubic-bezier(0.46, 0.05, 0.56, 0.9);*/
-    /*animation-delay: 2s;*/
-    /*animation-iteration-count: infinite;*/
-    /*animation-direction: normal;*/
-    /*animation-fill-mode: forwards;*/
-    /*animation-play-state: running*/
-/*}*/
-
-/*@keyframes animation-bingo-card-img-start2 {*/
-    /*from{*/
-        /*transform:translate(100vw,0);*/
-    /*}*/
-    /*to{*/
-        /*transform:translate(-100vw, 0);*/
-    /*}*/
-/*}*/
-
-button {
+button.start, button.confirm {
     position: relative;
     left: 50%;
     margin-left: -92px;
@@ -103,4 +82,34 @@ button {
     vertical-align: middle;
     line-height: 100px;
     border: solid 2px #df58ab;
+}
+
+.extracted-numbers-button {
+    float: right;
+    margin: 5px 10px 5px 0;
+}
+
+.main-title {
+    margin-left: 20px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.header {
+    position: relative;
+}
+
+.beginning-button {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right:10px;
+}
+
+.buttons {
+    position: relative;
 }
