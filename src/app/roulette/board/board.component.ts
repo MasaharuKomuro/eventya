@@ -24,29 +24,37 @@ export class BoardComponent implements OnInit {
   }
 
   ngOnInit () {
-    for (let i = 0; i < this.total; i++) {
+    for (let i = 1; i <= this.total; i++) {
       this.leaves.push(i);
     }
     this.init();
   }
 
   public init = function() {
-    let valid_number: boolean = false;
 
     // ターゲットを決定！
-    while (!valid_number) {
-      this.target = Math.floor(Math.random() * this.total + 1);
-      valid_number = !(this.items.indexOf(this.target) > -1);
-    }
+    const target_num = Math.floor(Math.random() * (this.total + 1 - this.extracted));
+    // console.log('target_num');
+    // console.log(target_num);
+    this.target = this.leaves[target_num];
+    // console.log('target');
+    // console.log(this.target);
+    this.leaves.splice(target_num, 1);
+    // console.log('leaves');
+    // console.log(this.leaves);
     this.alreadies.push(this.target);
-    console.log(this.target);
+    // console.log('alreadies');
+    // console.log(this.alreadies);
+    this.extracted++;
+    // console.log('extracted');
+    // console.log(this.extracted);
 
     // ダミーの写真を決定
     let filled: boolean = false;
     let new_item;
     while (!filled) {
       new_item = Math.floor(Math.random() * 75 + 1);
-      if (!(this.items.indexOf(new_item) > -1)) {
+      if (!(this.items.indexOf(new_item) > -1) && new_item !== this.target) {
         this.items.push(new_item);
       }
       if (this.items.length === (this.per_phase - 1)) { filled = true; }
@@ -62,15 +70,15 @@ export class BoardComponent implements OnInit {
   }
 
   public clickConfirm = function() {
-    console.log('OK');
+    // console.log('OK');
     this.items = [];
+    // console.log('items');
+    // console.log(this.items);
     this.init();
     this.is_animation_end = false;
   };
 
   public animationEnd = function (e) {
-    console.log('animationEnd');
-    console.log(e.animationName);
     if (e.animationName !== 'animation-target-image-start') {
       return false;
     }
