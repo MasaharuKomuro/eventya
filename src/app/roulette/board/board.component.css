@@ -13,7 +13,9 @@
 .bingo-card-img {
     width: 100vh;
     margin-left: 100vw;
-    right: -75vw;
+    /*right: -75vw;*/
+    left: 150%;
+    margin-left: -416px;
 }
 
 .bingo-card-img img {
@@ -28,7 +30,8 @@
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
-    animation-play-state: running
+    animation-play-state: running;
+    transform: translate3d(0,0,0);
 }
 
 @keyframes animation-start {
@@ -42,13 +45,14 @@
 
 .target-image-start {
     animation-name: animation-target-image-start;
-    animation-duration: 2s/*4s*/;
+    animation-duration: 3s/*4s*/;
     animation-timing-function: cubic-bezier(0.46, 0.05, 0.56, 0.9);
     animation-delay: 0s;
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
-    animation-play-state: running
+    animation-play-state: running;
+    transform: translate3d(0,0,0);
 }
 
 @keyframes animation-target-image-start {

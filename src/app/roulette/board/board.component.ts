@@ -87,6 +87,14 @@ export class BoardComponent implements OnInit {
     setTimeout(() => {
       this.$('.bingo-card-img').addClass('bingo-card-img-start');
       this.$('.target-image').addClass('target-image-start');
+      // サイズを調整
+      const bingo_card_items = this.$('.bingo-card-img');
+      for (let i = 0;  i < bingo_card_items.length; i++) {
+        if (bingo_card_items.hasOwnProperty(i)) {
+          const width = this.$(bingo_card_items[i]).children('img').width();
+          this.$(bingo_card_items[i]).css('margin-left', width / -2 + 'px')
+        }
+      }
     }, 100);
     this.in_transaction = true;
   }
