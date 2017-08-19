@@ -12,7 +12,7 @@ export class BoardComponent implements OnInit {
   public total: number = 75;
   public extracted: number = 0;
   public leaves = [];
-  public per_phase: number = 6;
+  public per_phase: number = 5;
   public target: number;
   public items = [];
   public alreadies = [];
@@ -49,9 +49,7 @@ export class BoardComponent implements OnInit {
   }
 
   ngOnInit () {
-    for (let i = 1; i <= this.total; i++) {
-      this.leaves.push(i);
-    }
+    this.initLeaves();
 
     // ローカルストレージから状態を取得
     const status = JSON.parse(localStorage.getItem(this.storage));
@@ -128,7 +126,7 @@ export class BoardComponent implements OnInit {
           this.$(bingo_card_items[i]).css('margin-left', width / -2 + 'px')
         }
       }
-    }, 100);
+    }, 200);
     this.in_transaction = true;
   }
 
@@ -145,7 +143,7 @@ export class BoardComponent implements OnInit {
     if (window.confirm('本当に初めからプレイしますか？')) {
       localStorage.removeItem(this.storage);
       this.extracted = 0;
-      this.leaves = [];
+      this.initLeaves();
       this.alreadies = [];
       this.clickConfirm();
     }
@@ -155,12 +153,18 @@ export class BoardComponent implements OnInit {
     if (e.animationName !== 'animation-target-image-start') {
       return false;
     }
-    if (this.alreadies.length === this.total -1) {
+    if (this.alreadies.length === this.total - 1) {
       console.log('終了');
     }
     this.in_transaction = false;
     this.is_animation_end = true;
     this.$('.target-image').addClass('showing-result-number');
-  }
+  };
+
+  public initLeaves = function() {
+    for (let i = 1; i <= this.total; i++) {
+      this.leaves.push(i);
+    }
+  };
 
 }
