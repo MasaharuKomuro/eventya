@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
+import { RegistryService } from "../common/registry.service";
 
 @Component({
   selector: 'app-top',
@@ -10,10 +11,11 @@ export class TopComponent implements OnInit {
   ngOnInit() {
   }
 
-  public myInterval: number = 1500;
-  public slides: any[] = [];
-  public activeSlideIndex: number = 0;
-  public noWrapSlides: boolean = false;
+  constructor (
+      public registryService: RegistryService
+  ) {
+  
+  }
   
 
 }

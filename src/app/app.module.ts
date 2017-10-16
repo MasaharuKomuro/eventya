@@ -21,8 +21,12 @@ import { RouletteModule }        from './roulette/roulette.module';
 import { FullLayoutComponent }   from './layouts/full-layout.component';
 import { SimpleLayoutComponent } from './layouts/simple-layout.component';
 import { FormsModule }           from '@angular/forms';
-import { RouletteComponent}      from './roulette/roulette.component';
 import { TopComponent } from './eventya/top/top.component';
+import { AboutComponent } from './eventya/about/about.component';
+import { BlogComponent } from './eventya/blog/blog.component';
+import { ContactComponent } from './eventya/contact/contact.component';
+import { RegistryService } from "./eventya/common/registry.service";
+import { FooterComponent } from './eventya/common/component/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -34,7 +38,6 @@ import { TopComponent } from './eventya/top/top.component';
     ChartsModule,
     FormsModule,
     CommonModule,
-    RouletteModule
   ],
   declarations: [
     AppComponent,
@@ -44,13 +47,18 @@ import { TopComponent } from './eventya/top/top.component';
     BreadcrumbsComponent,
     SIDEBAR_TOGGLE_DIRECTIVES,
     AsideToggleDirective,
-    TopComponent
+    TopComponent,
+    AboutComponent,
+    BlogComponent,
+    ContactComponent,
+    FooterComponent
   ],
   providers: [
     {
       provide:  LocationStrategy,
       useClass: PathLocationStrategy
-    }
+    },
+      RegistryService
   ],
   bootstrap: [ AppComponent ]
 })
