@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LocationStrategy, HashLocationStrategy, CommonModule } from '@angular/common';
+import { LocationStrategy, HashLocationStrategy, CommonModule, PathLocationStrategy } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
@@ -22,6 +22,7 @@ import { FullLayoutComponent }   from './layouts/full-layout.component';
 import { SimpleLayoutComponent } from './layouts/simple-layout.component';
 import { FormsModule }           from '@angular/forms';
 import { RouletteComponent}      from './roulette/roulette.component';
+import { TopComponent } from './eventya/top/top.component';
 
 @NgModule({
   imports: [
@@ -42,12 +43,13 @@ import { RouletteComponent}      from './roulette/roulette.component';
     NAV_DROPDOWN_DIRECTIVES,
     BreadcrumbsComponent,
     SIDEBAR_TOGGLE_DIRECTIVES,
-    AsideToggleDirective
+    AsideToggleDirective,
+    TopComponent
   ],
   providers: [
     {
-      provide: LocationStrategy,
-      useClass: HashLocationStrategy
+      provide:  LocationStrategy,
+      useClass: PathLocationStrategy
     }
   ],
   bootstrap: [ AppComponent ]
