@@ -7,8 +7,7 @@
     <div class="bg-faded p-4 my-4">
       <!-- Image Carousel -->
       <div id="topCarousel" class="carousel slide"
-           data-ride="carousel" data-interval="4000" data-wrap="true" data-pause="hover"
-           (mouseenter)="filler_on_carousel = true"
+           data-ride="carousel" data-interval="7000" data-wrap="true" data-pause="hover"
       >
         <ol class="carousel-indicators">
           <ng-container *ngFor="let slider_item of slider_items; let i = index; let first = first">
@@ -17,13 +16,13 @@
           </ng-container>
         </ol>
 
-        <!-- slider部分 -->
-        <div class="carousel-inner carousel-image-area" role="listbox">
-          <div class="carousel-item"
-               *ngFor="let slider_item of slider_items; let first = first;"
-               [ngClass]="{ 'active': first }"
-          >
-          <img class="d-block img-fluid w-100" src="{{ slider_item.img_path }}" alt="">
+      <!-- slider部分 -->
+      <div class="carousel-inner carousel-image-area" role="listbox">
+        <div class="carousel-item"
+             *ngFor="let slider_item of slider_items; let first = first;"
+             [ngClass]="{ 'active': first }"
+        >
+          <img class="d-block img-fluid w-100" src="{{ slider_item.img_path }}" />
           <div class="carousel-caption d-none d-md-block"></div>
           <div class="carousel-caption-content">
             <h3 class="text-shadow title">{{ slider_item.title }}</h3><br>
@@ -43,10 +42,11 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-        <div class="black-filler" [ngClass]="{ 'active': filler_on_carousel }" (mouseleave)="filler_on_carousel = false">
+        <div class="black-filler">
           <a>詳しく見る</a>
         </div>
       </div>
+      <!-- slider部分 終了 -->
 
       <!-- Welcome Message -->
       <div class="text-center mt-4 welcome-message">
@@ -58,16 +58,13 @@
       </div>
     </div>
 
-    <div class="detail-panel bg-faded p-4 my-4">
+    <!-- 記事部分 -->
+    <div class="article-panel bg-faded p-4 my-4" *ngFor="let article of article_items;">
       <hr class="divider">
-      <h2 class="text-center text-lg text-uppercase my-0">Build a website
-        <strong>worth visitng</strong>
-      </h2>
+      <h2 class="text-center text-lg text-uppercase my-0" [innerHtml]="article.title">{{article.title}}</h2>
       <hr class="divider">
       <img class="img-fluid float-left mr-4 d-none d-lg-block" src="../../../assets/img/businessCasual/intro-pic.jpg" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit totam libero expedita magni est delectus pariatur aut, aperiam eveniet velit cum possimus, autem voluptas. Eum qui ut quasi voluptate blanditiis?</p>
+      <p [innerHtml]="article.body"></p>
     </div>
 
     <div class="bg-faded p-4 my-4">
@@ -79,6 +76,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
     </div>
+    <!-- 記事部分 終了 -->
 
   </div>
   <!-- /.container -->

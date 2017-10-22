@@ -10,8 +10,6 @@ export class TopComponent implements OnInit {
 
   ngOnInit() {
   }
-  
-  public filler_on_carousel: boolean = false;
 
   constructor (
       public registryService: RegistryService
@@ -36,5 +34,22 @@ export class TopComponent implements OnInit {
     },
   ];
   
-
+  public article_items: Array<any> = [
+    {
+      title: 'パーティーゲームの<strong>決定版</strong>',
+      body: '「いべんとや」は結婚式・二次会・パーティ・クラブイベントなどの時に大活躍するパーティーゲームを製作しています。' +
+          'ここぞと言う時、ついついみんなで盛り上がってしまうようなゲームを、高機能で操作の簡単なwebアプリで体感して見ませんか？'
+    },
+    {
+      title: '<strong>決定版</strong>',
+      body: '「いべんとや」は結婚式・二次会・パーティ・クラブイベントなどの時に大活躍するパーティーゲームを製作しています。' +
+      'ここぞと言う時、ついついみんなで盛り上がってしまうようなゲームを、高機能で操作の簡単なwebアプリで体感して見ませんか？'
+    },
+    {
+      title: 'パーティーゲームの<strong>決定版</strong>',
+      body: '「いべんとや」は結婚式・二次会・パーティ・クラブイベントなどの時に大活躍するパーティーゲームを製作しています。' +
+      'ここぞと言う時、ついついみんなで盛り上がってしまうようなゲームを、高機能で操作の簡単なwebアプリで体感して見ませんか？'
+    }
+  ];
+  
 }
