@@ -1,35 +1,6 @@
 <div>
 
-  <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">{{ registryService.title }}</div>
-  <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
-    <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" routerLink="/top">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" routerLink="/about">About</a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" routerLink="/blog">Blog</a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" routerLink="/blog">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <app-header></app-header>
 
   <div class="container">
 
@@ -44,7 +15,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
-            <img class="d-block img-fluid w-100" src="../../../assets/img/businessCasual/slide-1.jpg" alt="">
+            <img class="d-block img-fluid w-100" src="../../../assets/img/top/slider/bingo.jpg" alt="">
             <div class="carousel-caption d-none d-md-block">
               <h3 class="text-shadow">First Slide</h3>
               <p class="text-shadow">This is the caption for the first slide.</p>

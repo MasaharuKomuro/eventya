@@ -29,11 +29,16 @@ export const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent,
+  },
+  {
+    path: '**',
+    redirectTo: 'top',
   }
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
+  imports: [ RouterModule.forRoot( routes ) ],
   exports: [ RouterModule ]
 })
+
 export class AppRoutingModule {}
