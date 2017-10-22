@@ -6,3 +6,19 @@
 @import './assets/businessCasual/vendor/bootstrap/css/bootstrap-reboot.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic');
+@font-face {
+    font-family: 'mugenplus';
+    src: url('./assets/fonts/extra/mugenplus/mgenplus-1c-regular.ttf');
+}
+@font-face {
+    font-family: 'KodomoRounded-Light';
+    src: url('./assets/fonts/extra/KodomoRounded-Light/KodomoRounded-Light.otf');
+}
+@font-face {
+    font-family: 'logotype';
+    src: url('./assets/fonts/extra/logotype/logotype.otf');
+}
+@font-face {
+    font-family: 'smartFontUI';
+    src: url('./assets/fonts/extra/smartFontUI/smartFontUI.otf');
+}
