@@ -59,22 +59,22 @@
     </div>
 
     <!-- 記事部分 -->
-    <div class="article-panel bg-faded p-4 my-4" *ngFor="let article of article_items;">
-      <hr class="divider">
-      <h2 class="text-center text-lg text-uppercase my-0" [innerHtml]="article.title">{{article.title}}</h2>
-      <hr class="divider">
-      <img class="img-fluid float-left mr-4 d-none d-lg-block" src="../../../assets/img/businessCasual/intro-pic.jpg" alt="">
-      <p [innerHtml]="article.body"></p>
-    </div>
-
-    <div class="bg-faded p-4 my-4">
-      <hr class="divider">
-      <h2 class="text-center text-lg text-uppercase my-0">Beautiful boxes to
-        <strong>showcase your content</strong>
-      </h2>
-      <hr class="divider">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
+    <div class="article-panel bg-faded p-4 my-4 col-md-12" *ngFor="let article of article_items;">
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="divider">
+          <h2 class="article-title text-center text-lg text-uppercase my-0" [innerHtml]="article.title">{{article.title}}</h2>
+          <hr class="divider">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img class="article-image img-fluid float-left mr-4 d-lg-block" src="../../../assets/img/businessCasual/intro-pic.jpg" alt="">
+        </div>
+        <div class="col-md-9">
+          <p class="article-body" [innerHtml]="article.body"></p>
+        </div>
+      </div>
     </div>
     <!-- 記事部分 終了 -->
 
@@ -83,4 +83,5 @@
 
   <app-footer></app-footer>
 
+  </div>
 </div>

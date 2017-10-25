@@ -9,7 +9,7 @@
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host eventya.work --port 4200 --live-reload true",
+    "start": "ng serve --host eventya.work --port 4000 --live-reload true",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
