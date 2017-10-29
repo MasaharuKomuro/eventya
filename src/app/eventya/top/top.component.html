@@ -59,7 +59,9 @@
     </div>
 
     <!-- 記事部分 -->
-    <div class="article-panel bg-faded p-4 my-4 col-md-12" *ngFor="let article of article_items;">
+    <div class="article-panel bg-faded p-4 my-4 col-md-12" *ngFor="let article of article_items; let index = index"
+         [ngClass]="{ 'in-view': getInViewStyle( index ) }" in-view (inview)="setInViewStyle( index, $event )"
+    >
       <div class="row">
         <div class="col-md-12">
           <hr class="divider">
@@ -69,10 +71,26 @@
       </div>
       <div class="row">
         <div class="col-md-3">
-          <img class="article-image img-fluid float-left mr-4 d-lg-block" src="../../../assets/img/businessCasual/intro-pic.jpg" alt="">
+          <figure>
+            <ng-container *ngIf="article.image; else defaultImage">
+              <img class="article-image img-fluid float-left mr-4 d-lg-block"
+                   src="{{ article?.image?.path }}" alt="">
+              <figcaption *ngIf="article.image.caption" [innerHtml]="article.image.caption"></figcaption>
+            </ng-container>
+            <ng-template #defaultImage>
+              <img class="article-image img-fluid float-left mr-4 d-lg-block"
+                   src="../../../assets/img/businessCasual/intro-pic.jpg" alt="">
+            </ng-template>
+          </figure>
+
         </div>
         <div class="col-md-9">
-          <p class="article-body" [innerHtml]="article.body"></p>
+          <p class="article-body" [innerHtml]="'&nbsp;&nbsp;' + article.body"></p>
+        </div>
+        <div class="col-12 show-detail">
+          <button class="">
+            詳しく見る
+          </button>
         </div>
       </div>
     </div>

@@ -28,6 +28,7 @@ import { ContactComponent } from './eventya/contact/contact.component';
 import { RegistryService } from "./eventya/common/registry.service";
 import { FooterComponent } from './eventya/common/component/footer/footer.component';
 import { HeaderComponent } from './eventya/common/component/header/header.component';
+import { NgInviewModule } from "angular-inport";
 
 @NgModule({
   imports: [
@@ -39,6 +40,7 @@ import { HeaderComponent } from './eventya/common/component/header/header.compon
     ChartsModule,
     FormsModule,
     CommonModule,
+    NgInviewModule
   ],
   declarations: [
     AppComponent,

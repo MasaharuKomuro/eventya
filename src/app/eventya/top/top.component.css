@@ -140,6 +140,47 @@
     font-size: 18px;
 }
 
+:host /deep/ figcaption {
+    line-height: 10px;
+}
+
+:host /deep/ figcaption a {
+    font-size: 5px;
+}
+
+.show-detail button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #60cca8;
+    border: transparent;
+    border-bottom: solid 2px #60cca8;
+    background: transparent;
+    width: 50%;
+    transition: .4s;
+}
+
+.show-detail button:hover {
+    opacity: 0.7;
+    background: #60cca8;
+    color: white;
+}
+
+.show-detail {
+    text-align: center;
+}
+
+.article-panel {
+    opacity: 0;
+    transition: 1.5s;
+    transform: translateY(15px);
+}
+
+.article-panel.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media (max-width: 639px) {
     .carousel-caption-content_sp {
         display: block;
