@@ -10,6 +10,7 @@ import { AboutComponent } from '../about/about.component';
 import { BlogComponent } from '../blog/blog.component';
 import { ContactComponent } from '../contact/contact.component';
 import { FooterComponent } from '../common/component/footer/footer.component';
+import { HeaderComponent } from "../common/component/header/header.component";
 
 @NgModule({
     imports: [
@@ -26,7 +27,8 @@ import { FooterComponent } from '../common/component/footer/footer.component';
         AboutComponent,
         BlogComponent,
         ContactComponent,
-        FooterComponent
+        FooterComponent,
+        HeaderComponent
     ],
     providers: [
     ],

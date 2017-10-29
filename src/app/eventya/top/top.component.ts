@@ -80,6 +80,7 @@ export class TopComponent implements OnInit {
   
   public setInViewStyle = ( index: number, event: any ): void => {
     this.in_view_items[index] = !event.isOutsideView || !!this.in_view_items[index];
+    console.log(index);
   };
   
   public getInViewStyle = ( index: number ): boolean => {

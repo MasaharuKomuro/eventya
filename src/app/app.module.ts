@@ -15,20 +15,14 @@ import { BreadcrumbsComponent } from './shared/breadcrumb.component';
 
 // Routing Module
 import { AppRoutingModule }      from './app.routing';
-import { RouletteModule }        from './roulette/roulette.module';
 
 // Layouts
 import { FullLayoutComponent }   from './layouts/full-layout.component';
 import { SimpleLayoutComponent } from './layouts/simple-layout.component';
 import { FormsModule }           from '@angular/forms';
-import { TopComponent } from './eventya/top/top.component';
-import { AboutComponent } from './eventya/about/about.component';
-import { BlogComponent } from './eventya/blog/blog.component';
-import { ContactComponent } from './eventya/contact/contact.component';
-import { RegistryService } from "./eventya/common/registry.service";
-import { FooterComponent } from './eventya/common/component/footer/footer.component';
-import { HeaderComponent } from './eventya/common/component/header/header.component';
-import { NgInviewModule } from "angular-inport";
+import { RegistryService } from './eventya/common/registry.service';
+import { NgInviewModule } from 'angular-inport';
+import { TopModule } from './eventya/top/top.module';
 
 @NgModule({
   imports: [
@@ -40,7 +34,8 @@ import { NgInviewModule } from "angular-inport";
     ChartsModule,
     FormsModule,
     CommonModule,
-    NgInviewModule
+    NgInviewModule,
+    TopModule
   ],
   declarations: [
     AppComponent,
@@ -49,13 +44,7 @@ import { NgInviewModule } from "angular-inport";
     NAV_DROPDOWN_DIRECTIVES,
     BreadcrumbsComponent,
     SIDEBAR_TOGGLE_DIRECTIVES,
-    AsideToggleDirective,
-    TopComponent,
-    AboutComponent,
-    BlogComponent,
-    ContactComponent,
-    FooterComponent,
-    HeaderComponent
+    AsideToggleDirective
   ],
   providers: [
     {
