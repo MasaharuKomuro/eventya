@@ -22,7 +22,12 @@ import { SimpleLayoutComponent } from './layouts/simple-layout.component';
 import { FormsModule }           from '@angular/forms';
 import { RegistryService } from './eventya/common/registry.service';
 import { NgInviewModule } from 'angular-inport';
-import { TopModule } from './eventya/top/top.module';
+import { TopComponent } from "./eventya/top/top.component";
+import { AboutComponent } from "./eventya/about/about.component";
+import { BlogComponent } from "./eventya/blog/blog.component";
+import { ContactComponent } from "./eventya/contact/contact.component";
+import { HeaderComponent } from "./eventya/common/component/header/header.component";
+import { FooterComponent } from "./eventya/common/component/footer/footer.component";
 
 @NgModule({
   imports: [
@@ -34,8 +39,7 @@ import { TopModule } from './eventya/top/top.module';
     ChartsModule,
     FormsModule,
     CommonModule,
-    NgInviewModule,
-    TopModule
+      NgInviewModule
   ],
   declarations: [
     AppComponent,
@@ -44,7 +48,13 @@ import { TopModule } from './eventya/top/top.module';
     NAV_DROPDOWN_DIRECTIVES,
     BreadcrumbsComponent,
     SIDEBAR_TOGGLE_DIRECTIVES,
-    AsideToggleDirective
+    AsideToggleDirective,
+      TopComponent,
+      AboutComponent,
+      BlogComponent,
+      ContactComponent,
+      HeaderComponent,
+      FooterComponent
   ],
   providers: [
     {

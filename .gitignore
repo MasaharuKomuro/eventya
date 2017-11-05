@@ -1,4 +1,4 @@
 src/assets/img/bingo_material
 .idea
 node_modules/
-appEngine
+appEngine/dist
