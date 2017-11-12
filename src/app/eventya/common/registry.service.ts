@@ -9,5 +9,11 @@ export class RegistryService {
   public sp_title:     string = 'いべんとや | イベント用WEBアプリ専門店';
   public subtitle:     string = 'イベント用webアプリ専門店';
   public copyRight:    string = 'Copyright © いべんとや 2017';
+  
+  public images:       object = {
+    bingo: {
+      main: '../../../assets/img/top/slider/bingo.jpg'
+    }
+  }
 
 }

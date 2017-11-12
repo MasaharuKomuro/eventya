@@ -22,14 +22,14 @@ export class TopComponent implements OnInit {
   
   public slider_items: Array<any> = [
     {
-      img_path: '../../../assets/img/top/slider/bingo.jpg',
+      img_path: this.registryService.images['bingo']['main'],
       title: '安定・王道の BINGO に一工夫！',
       sp_title: '安定・王道の BINGO に一工夫！',
       description: '来場者一人一人の写真を使った、思い出に残るビンゴゲームです',
       url: 'games/bingo'
     },
     {
-      img_path: '../../../assets/img/top/slider/bingo.jpg',
+      img_path: this.registryService.images['bingo']['main'],
       title: '安定・王道の BINGO に一工夫！',
       sp_title: '安定・王道の BINGO に一工夫！',
       description: '来場者一人一人の写真を使った、思い出に残るビンゴゲームです',
@@ -40,9 +40,10 @@ export class TopComponent implements OnInit {
   public article_items: Array<any> = [
     {
       title: '<strong>プレオープン中！無料で遊んじゃおう！</strong>(2月まで)',
-      body: '2017年11月、<strong>「いべんとや」</strong>サイトをプレオープンしました。' +
-      'これからどんどんゲームを作って、もっともっと楽しいサイトにして行きますが、先ずは<strong>無料</strong>でみなさまに楽しんで頂きたいと思います。' +
-      'リンクからポリシーを読んで、紳士にご使用よろしくお願いいたします。',
+      body: '「いべんとや」はパーティゲームwebアプリサイトです。' +
+      '2018年2月まではプレオープン(記念)として<strong>無料</strong>で遊べます★' +
+      'リンクからポリシーを読んで、ルールを守ったご使用をよろしくお願いします。' +
+      '2月からはもっといろいろなゲームなどを作っていきますのでお楽しみに♪',
       image: {
         path: 'https://image.freepik.com/free-photo/no-translate-detected_1098-1228.jpg',
         caption: '<a href="https://jp.freepik.com/free-photos-vectors/birthday">' +
@@ -52,7 +53,8 @@ export class TopComponent implements OnInit {
     {
       title: 'パーティーゲームなら<strong>「いべんとや」</strong>',
       body: '<strong>結婚式・二次会・パーティ・クラブイベント</strong>などの時に大活躍するパーティーゲームを製作しています。' +
-          'ここぞと言う時、ついついみんなで盛り上がってしまうようなゲームを、高機能で操作も簡単なwebアプリで体感して見ませんか？',
+      '他とは一味違うゲームで盛り上げたい方必見！参加者全員で盛り上がれるゲームを、' +
+      '『高機能』で『操作簡単』な<strong>“webアプリ”</strong>で体感して見ませんか？',
       image: {
         path: '../../../assets/img/top/slider/bingo.jpg'
       }
@@ -61,7 +63,7 @@ export class TopComponent implements OnInit {
       title: '<strong>[簡単 × 楽しい]</strong>WEBアプリでパーティーゲーム',
       body: 'イベントを開催する時、例えば定番のビンゴゲーム大会を企画して参加者全員で楽しい時間を作ろうと考えることがあります。' +
           'でも、タダでさえ忙しいイベント企画の中、ゲーム用の道具を購入して、現場に搬入して、ビンゴカードを配って、足りない時は買い足して、、、なんて色々と大変ですよね。' +
-          'また、「タダのビンゴゲームじゃあありきたり」だけど、一工夫をを考えるのもこれまた大変。<br>' +
+          'また、「タダのビンゴゲームじゃあありきたり」だけど、一工夫を考えるのもこれまた大変。<br>' +
           '<strong>いべんとや</strong>のアプリは全てwebアプリになってますので、簡単に普段とは一味違う定番のパーティーゲームで盛り上げる事ができます。'
     },
     {

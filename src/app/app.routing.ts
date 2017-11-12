@@ -6,6 +6,7 @@ import { TopComponent } from './eventya/top/top.component';
 import { AboutComponent } from './eventya/about/about.component';
 import { BlogComponent } from './eventya/blog/blog.component';
 import { ContactComponent } from './eventya/contact/contact.component';
+import { GamesComponent } from "./eventya/games/games.component";
 
 export const routes: Routes = [
   {
@@ -21,6 +22,10 @@ export const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent,
+  },
+  {
+    path: 'games',
+    component: GamesComponent,
   },
   {
     path: 'blog',

@@ -28,6 +28,7 @@ import { BlogComponent } from "./eventya/blog/blog.component";
 import { ContactComponent } from "./eventya/contact/contact.component";
 import { HeaderComponent } from "./eventya/common/component/header/header.component";
 import { FooterComponent } from "./eventya/common/component/footer/footer.component";
+import { GamesComponent } from './eventya/games/games.component';
 
 @NgModule({
   imports: [
@@ -54,7 +55,8 @@ import { FooterComponent } from "./eventya/common/component/footer/footer.compon
       BlogComponent,
       ContactComponent,
       HeaderComponent,
-      FooterComponent
+      FooterComponent,
+      GamesComponent
   ],
   providers: [
     {
