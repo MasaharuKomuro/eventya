@@ -29,6 +29,7 @@ import { ContactComponent } from "./eventya/contact/contact.component";
 import { HeaderComponent } from "./eventya/common/component/header/header.component";
 import { FooterComponent } from "./eventya/common/component/footer/footer.component";
 import { GamesComponent } from './eventya/games/games.component';
+import { BingoDetailComponent } from './eventya/bingo-detail/bingo-detail.component';
 
 @NgModule({
   imports: [
@@ -56,7 +57,8 @@ import { GamesComponent } from './eventya/games/games.component';
       ContactComponent,
       HeaderComponent,
       FooterComponent,
-      GamesComponent
+      GamesComponent,
+      BingoDetailComponent
   ],
   providers: [
     {

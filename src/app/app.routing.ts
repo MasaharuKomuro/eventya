@@ -7,6 +7,7 @@ import { AboutComponent } from './eventya/about/about.component';
 import { BlogComponent } from './eventya/blog/blog.component';
 import { ContactComponent } from './eventya/contact/contact.component';
 import { GamesComponent } from "./eventya/games/games.component";
+import { BingoDetailComponent } from "./eventya/bingo-detail/bingo-detail.component";
 
 export const routes: Routes = [
   {
@@ -17,22 +18,32 @@ export const routes: Routes = [
   },
   {
     path: 'top',
+    pathMatch: 'full',
     component: TopComponent,
   },
   {
     path: 'about',
+    pathMatch: 'full',
     component: AboutComponent,
   },
   {
     path: 'games',
+    pathMatch: 'full',
     component: GamesComponent,
   },
   {
+    path: 'games/bingo',
+    pathMatch: 'full',
+    component: BingoDetailComponent,
+  },
+  {
     path: 'blog',
+    pathMatch: 'full',
     component: BlogComponent,
   },
   {
     path: 'contact',
+    pathMatch: 'full',
     component: ContactComponent,
   },
   {
